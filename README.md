@@ -57,6 +57,6 @@ This config tells Ludwig to use the column called `instruction` in the dataset a
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) to get started.
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
