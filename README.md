@@ -3,7 +3,19 @@
 
 ## Goal
 
-The goal of this project is to fine-tune the Llama2-7b language model for code generation using the QLORA method. The model takes natural language instructions as input and generates corresponding code as output.
+The goal of this project is to fine-tune the Llama2-7b language model for code generation using the QLORA method. The model will take natural language as input, and should return code as output. We're first going to iterate on a base Llama-2-7b model with prompting, and finally instruction-fine-tune the model.
+
+As an example, if we prompt the model with this instruction:
+
+```
+Instruction: Create an array of length 5 which contains all even numbers between 1 and 10.
+```
+
+We want the model to produce exactly this response:
+
+```
+Response: array = [2, 4, 6, 8, 10]
+```
 
 ## QLORA Method for Fine-Tuning
 
